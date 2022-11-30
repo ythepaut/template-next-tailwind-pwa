@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  * {
+    font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .bg-hero {
+    background-image: linear-gradient(141deg, #112a37, #253d59 72%, #263965);
+  }
+
+  .hero-link {
+    @apply text-xl text-indigo-100 tracking-wide cursor-pointer transform transition hover:text-white hover:scale-110;
+  }
+}

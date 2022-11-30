@@ -1,0 +1,13 @@
+{
+    "error": {
+        "404": {
+            "title": "Erreur 404",
+            "description": "Le contenu que vous avez demandé n'éxiste pas."
+        },
+        "403": {
+            "title": "Accès restreint",
+            "description": "Vous ne possédez pas les permissions nécessaires pour accéder à cette ressource."
+        },
+        "back": "Revenir en arrière"
+    }
+}
